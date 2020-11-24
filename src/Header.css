@@ -1,0 +1,77 @@
+/* Amazon Logo */
+.header_logo {
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* navbar */
+.header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+/* search icon */
+.header_searchIcon {
+    background-color:#cd9042;
+    padding: 5px;
+    height: 22px !important;
+}
+/* search bar */
+.header_search {
+    display: flex;
+    flex: 1;  /*stretch left right as big as it can go */
+    align-items: center;
+    border-radius: 24px;
+}
+/* rightside text */
+.header_optionLineOne {
+    font-size: 16px;
+}
+.header_optionLineTwo {
+    font-size: 19px;
+    font-weight: 800;
+}
+/* searchbar */
+.header_searchInput {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+/* text container */
+.header_nav {
+    display: flex;
+    justify-content: space-evenly; /* aligns navbar text */
+}
+/* navbar text */
+.header_option {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    color: white;
+}
+/* shopping cart icon */
+.shopping_cart {
+    color: white;
+}
+/* container for shopping cart and total number */
+.header_optionBasket {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 20px;
+}
+/* basket count */
+.header_basketCount {
+    margin: 0 10px;
+}
+
+
+
