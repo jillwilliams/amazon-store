@@ -60,6 +60,7 @@
 /* shopping cart icon */
 .shopping_cart {
     color: white;
+    align-items: center;
 }
 /* container for shopping cart and total number */
 .header_optionBasket {
@@ -67,6 +68,7 @@
     align-items: center;
     color: white;
     margin-right: 20px;
+    margin-top: 10px;
 }
 /* basket count */
 .header_basketCount {
